@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table TAG</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+        }
+        table,th,td{
+            border: 2px solid red;
+            border-collapse: collapse;
+            padding: 3px;
+
+        }
+        th{
+            background-color: sandybrown;
+            padding: 5px;
+        }   
+        td{
+            background-color: turquoise;
+        }
+        #sn{
+            background-color: khaki;
+        }
+    </style>
+</head>
+<body>
+
+    <!--simple table table row span table col span custom table with css-->
+    <h2>Simple Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>S.No.</th>
+                <th>Name</th>
+                <th>Adress</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="sn">1</td>
+                <td>John</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td id="sn">2</td>
+                <td>Kelvin</td>
+                <td>Moscow</td>
+            </tr>
+            <tr>
+                <td id="sn">3</td>
+                <td>Shubham</td>
+                <td>India</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Table with Col Span</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>S.No.</th>
+                <th colspan="2">Name & address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="sn">1</td>
+                <td>John</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td id="sn">2</td>
+                <td>Kelvin</td>
+                <td>Moscow</td>
+            </tr>
+            <tr>
+                <td id="sn">3</td>
+                <td>Shubham</td>
+                <td>India</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Table with Row Span</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>S.No.</th>
+                <th>Name</th>
+                <th>Adress</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="sn" rowspan="2">1</td>
+                <td>John</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                
+                <td>Kelvin</td>
+                <td>Moscow</td>
+            </tr>
+            <tr>
+                <td id="sn">3</td>
+                <td>Shubham</td>
+                <td>India</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Input Types</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        div{
+            background-color: orange;
+            padding: 10px;
+            margin: 5px;
+            font-family: sans-serif;
+            width: 400px;
+            border-radius: 10px;
+        }
+        #html5{
+            background-color:lightsalmon;
+            border: 2px solid red;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        Simple Input Types
+        1) Text Box
+        2) Password Box
+        3) Radio Button
+        4) Check Box
+        5) Normal Button
+    -->
+    <div>
+        <form>
+            <label for="user">Username</label>
+            <input type="text" id="user">
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <label>Password</label>
+            <input type="password">
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <label>Username</label>
+            <input type="text">
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+    <div>
+        <form>
+            <label>Username</label>
+            <input type="text">
+            <br>
+            <input type="reset">
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <label>Is HTML Easy?</label>
+            <br>
+            <input type="radio" value="yes" name="whatever">YES
+            <input type="radio" value="no" name="whatever">NO
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <label>Select Your Hobbies</label>
+            <input type="checkbox" value="eating">Eating
+            <input type="checkbox" value="coding">Coding 
+            <input type="checkbox" value="sleeping">Sleeping 
+
+        </form>
+    </div>
+    <br><hr width="600px"  align="left"><br>
+
+    <table>
+        <tr>
+            <th align="center" id="html5"><h2>HTML5 input types</h2></th>
+        </tr>
+    </table>
+    
+    <!--color-->
+    <div>
+        <form>
+            <label>Select a color</label>
+            <input type="color">
+        </form>
+    </div>
+
+    <!--date-->
+    <div>
+        <form>
+            <label>Select a date</label>
+            <input type="date">
+        </form>
+    </div>
+
+    <!--date time-->
+    <div>
+        <form>
+            <label>Select a date and time</label>
+            <input type="datetime-local">
+        </form>
+    </div>
+
+    <!--email-->
+    <div>
+        <form>
+            <label>Select a email</label>
+            <input type="email">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+    <!--link-->
+    <div>
+        <form>
+            <label>enter URL</label>
+            <input type="url">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+    <!--number-->
+    <div>
+        <form>
+            <label>Select your age</label>
+            <input type="number" min="18" max="30">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+    <!--range-->
+    <div>
+        <form>
+            <label>Select a range</label>
+            0<input type="range" min="0" max="100">100
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <!--search-->
+    <div>
+        <form>
+            <label>Search here</label>
+            <input type="search">
+        </form>
+    </div>
+
+    <!--Time selection-->
+    <div>
+        <form>
+            <label>Select a time</label>
+            <input type="time">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+<!--week selection-->
+<div>
+    <form>
+        <label>Select a week</label>
+        <input type="week">
+        <input type="submit" value="submit">
+    </form>
+</div>
+
+</body>
+</html>
